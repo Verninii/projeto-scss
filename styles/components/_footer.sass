@@ -1,0 +1,15 @@
+@use '../abstract/mixins'
+@use '../abstract/variaveis'
+
+//Sass
+footer
+    background-color: #E8F5C8
+    padding: 2rem
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-top: 5rem
+
+    small
+        @include mixins.ff-fs-color(variaveis.$ft-textos, 1rem, variaveis.$cor-primaria)
+    
